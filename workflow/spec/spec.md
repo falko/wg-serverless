@@ -1789,12 +1789,12 @@ output of the state to transition from includes an user with the title "MANAGER"
    "startsAt": "lowRiskState",
    "functions": [
       {
-         "name": "doLowRistOperationFunction",
-         "resource": "functionResourse"
+         "name": "doLowRiskOperationFunction",
+         "resource": "functionResource"
       },
       {
-         "name": "doHighRistOperationFunction",
-         "resource": "functionResourse"
+         "name": "doHighRiskOperationFunction",
+         "resource": "functionResource"
       }
    ],
    "states":[  
@@ -1805,7 +1805,7 @@ output of the state to transition from includes an user with the title "MANAGER"
          "actions":[  
           {  
             "functionref":{
-               "refname": "doLowRistOperationFunction"
+               "refname": "doLowRiskOperationFunction"
             }
           }
          ],
@@ -1825,7 +1825,7 @@ output of the state to transition from includes an user with the title "MANAGER"
          "actions":[  
             {  
               "functionref":{
-                "refname": "doHighRistOperationFunction"
+                "refname": "doHighRiskOperationFunction"
               }
            }
          ]
