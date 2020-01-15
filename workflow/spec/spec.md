@@ -1790,11 +1790,11 @@ output of the state to transition from includes an user with the title "MANAGER"
    "functions": [
       {
          "name": "doLowRistOperationFunction",
-         "resource": "functionResourse"
+         "resource": "functionResource"
       },
       {
          "name": "doHighRistOperationFunction",
-         "resource": "functionResourse"
+         "resource": "functionResource"
       }
    ],
    "states":[  
